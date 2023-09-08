@@ -7,7 +7,7 @@ api_key = st.text_input('Enter API Key',value= '')
 base_url = 'https://financialmodelingprep.com/api/v3'
 
 
-st.header('Fall 2023 SIF Stock Screener')
+st.header('SIF Stock Data Puller')
 symbol = st.sidebar.text_input('Ticker:',value='')
 financial_data = st.sidebar.selectbox('Financial Data Type',options=('income-statement', 'balance-sheet-statement', 'cash-flow-statement', 'income-statement-growth', 'balance-sheet-statement-growth', 'cash-flow-statement-growth', 'ratios-ttm', 'ratios', 'financial-growth', 'quote', 'rating', 'enterprise-values', 'key-metrics-ttm', 'key-metrics', 'historical-rating', 'discounted-cash-flow', 'historical-discounted-cash-flow-statement', 'historical-price-full', 'Historical Price smaller intervals'))
 
